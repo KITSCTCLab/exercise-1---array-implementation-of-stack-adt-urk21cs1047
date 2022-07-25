@@ -22,12 +22,10 @@ class Stack:
         if not self.is_full():
             self.items.append(data)
           
-
     def pop(self):
         if not self.is_empty():
            self.items.pop()
             
-
     def status(self):
         for element in self.items:
             print(element)
